@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //imageView.setScaleType(ImageView.ScaleType.FIT_XY);
         imageView = (ImageView) findViewById(R.id.imageView);
 
 
@@ -28,10 +27,10 @@ public class MainActivity extends AppCompatActivity {
         Picasso.get().load("https://www.artseasy.com/painting/20x24/Reproduction1_NZ/Pablo_Picasso013M.JPG").into(imageView);
 
 
-        // Benidorm
+        // Benidorm image alternative
         //Picasso.get().load("https://i.pinimg.com/originals/00/aa/fd/00aafdc57273d28d3e0818b9fca9fc70.jpg").into(imageView);
 
-        // Picasso library sample img demo
+        // Picasso library sample img demo alternative
         //Picasso.get().load("http://i.imgur.com/DvpvklR.png").into(imageView);
 
 
