@@ -31,9 +31,6 @@ public class MainActivity extends AppCompatActivity {
         // Benidorm image alternative
         Picasso.get().load("https://i.pinimg.com/originals/00/aa/fd/00aafdc57273d28d3e0818b9fca9fc70.jpg").into(imageView);
 
-        // Picasso library sample img demo alternative
-        //Picasso.get().load("http://i.imgur.com/DvpvklR.png").into(imageView);
-
 
     }
 }
